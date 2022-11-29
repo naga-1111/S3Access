@@ -13,7 +13,7 @@ class S3Access:
         aws_access_key_id="",
         aws_secret_access_key="",
         region_name='ap-northeast-1')
-    self.s3BucketName = 'orderbook-bybit'
+    self.s3BucketName = ''
     self.s3path = 'OrderbookData10min/'
     return
 
