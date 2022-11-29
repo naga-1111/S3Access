@@ -8,6 +8,7 @@ class S3Access:
   def __init__(self):
     """アカウント設定など
     https://qiita.com/tsukamoto/items/00ec8ef7e9a4ce4fb0e9
+    https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html
     """
     self.client = boto3.client('s3',
         aws_access_key_id="",
